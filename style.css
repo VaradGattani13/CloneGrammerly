@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.m1{
+    color: blue;
+    direction: ltr;
+    margin: 0px;
+    margin-bottom: 500px;
+    border :3px solid rgba(220, 440, 67, .5);
+    margin-left: 15px;
+    display: flex;
+    /* position: relative; */
+}
+
+.con{margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 40PX;
+
+}
+html{
+    /* margin-top: ; */
+    color: rgb(96, 138, 53);
+}
+
+body{
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("bgim.jpg");
+
+}
+
+
+
+
+
+
+
+
+.h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    margin-bottom: 10px;
+}
+
+
+.textarea{
+    position: relative
+    ;
+    height: 270px;
+    border:  solid 3px red;
+    border-radius: 5px;
+
+    width: 721px;
+    background-color: aqua;
+}
+
+
+.textarea:focus
+    {
+        border: solid 3px aqua;
+        color: aq;
+}
+
+
+.button{
+     /* background: rgb(17 166 131); */
+    /* color: rgb(255 255 255);
+    border-radius: 6px;
+    padding: 16px 32px;
+    border: none; */
+    /* font-size: 18px;
+    letter-spacing: 1px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    */
+     /* margin-top: -80px;  */
+    cursor: pointer; 
+/* position: relative; */
+
+
+
+   
+    border: 3px dashed green;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+/* margin-top: -100px; */
+display: flex;
+margin-left: 150px;
+margin-left: 420px;
+position: relative;
+padding: 15px 25px;
+margin-top: -70px;
+
+
+}
+
+p{font-size: 20px;
+    word-spacing: 2px;
+}
+
+.button:hover{
+    background-color: rgb(89, 165, 54);
+font-family: cursive;
+}
+
+
+.creation{
+    /* display: block; */
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+
+.countercon{
+    font-size: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      margin-top: 20px;
+    }
+}  
+
+
+.counter-container {
+    flex-direction: column;
+  }
+
+
+  .counter-container p:first-child {
+    margin-bottom: 0;
+  }
